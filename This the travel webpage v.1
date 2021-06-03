@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <title>Project: Travel webpage</title>
+   
+   
+    <style>
+       a {
+       margin: 10px;
+       font-family:serif;
+       }
+     a:hover  {
+         font-family:audiowide;
+    font-size: 20px;
+         background-color: rgb(5, 194, 252);
+          }
+      a:active{
+          background-color : rgb(0, 255, 0);
+      }
+      a:focus{
+          color: orange;
+      }
+        
+        
+        #goa  {
+            color: rgb(0, 217, 255);
+        }
+       
+       #goa  {
+          background-color: rgb(81, 0, 255);
+       } 
+        body  {
+            background-color: rgb(255, 241, 217);
+            background-image: url("");
+         background-image: linear-gradient(rgb(175, 64, 255),cyan,white);
+            
+        }
+        
+        h1  {
+            background-color: rgb(85, 255, 43);
+       text-decoration: underline rgb(0, 0, 0);
+        text-align: center;
+        font-family:Sans-serif;
+            border:9px groove gray;
+             color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;           transform: matrix(1, 0.01, 0.1, 1, 3, 13);
+        
+        }
+        h2   {
+            font-family: sans-serif;       
+            text-decoration: underline rgb(250, 73, 3);
+        margin: 30px;
+        padding:13px;
+        border: 5px outset lightblue;
+            text-shadow: 2px 2px rgb(255, 204, 176);
+        background-image: linear-gradient(red, yellow);
+        }
+       h3  {
+           font-family: sans-serif;
+       }
+           
+               #ANDAMAN {
+            color: rgb(87, 252, 78);
+        }
+        
+    #ANDAMAN {
+            background-color: rgb(242, 0, 0);
+    }
+  
+   #wel  {
+       background-color: rgb();
+  font-family:fantasy;
+   line-height: 40px;
+       font-style : italic;
+  width: 70%;
+  height: 120px;
+   overflow: visible;
+   overflow-y : auto;     
+   border: 20px ridge blue ;
+   margin:auto;
+   text-indent: 20px;
+   text-transform: uppercase;
+text-decoration: underline;       
+   border-radius:24px;
+    background-image: linear-gradient(orange,white,green); 
+   box-shadow: 10px 10px 5px grey;
+  
+   }
+    #woody   {
+        background-color: rgb(235, 149, 0);
+        font-family:cursive;
+        text-shadow: 2px 2px rgb(255, 191, 117);
+        line-height: 28px;
+         background-image: radial-gradient(circle, red, yellow, green);
+    }
+   #woody-2   {
+    color: rgb(255, 238, 0);   
+   
+       font-family:monospace;
+        text-decoration: underline;
+   }
+    #buzz  {
+        background-color: rgb(152, 3, 252);
+   
+        font-family:fantasy;   
+    }
+  #buzz-lightyear  {
+      background-color: lightgreen;
+      line-height: 28px;
+      font-family : cursive;
+  text-shadow: 2px 2px rgb(255, 99, 99);
+  background-image: radial-gradient(circle, green, yellow, red);
+  }
+  #sai-is-bad-boy  {
+      background-color: rgb(221, 255, 0);
+      
+  }
+    .i2   {
+    width :70%;
+    opacity :0.9999;
+    filter:contrast(130%);
+    
+    }
+    #jessie  {
+ background-color: rgb(115, 255, 0);
+  }
+  
+  #ad {
+      background-color : rgb(255, 149, 0);
+  }
+  
+  #lists {
+      background-color:rgb(0, 21, 255);
+  font-family : serif;
+      
+  }
+   
+    #lists-2  {
+     background-color: rgb(0, 255, 162);
+   font-family :serif;
+    }   
+    
+    #abcd  {
+        background-color : rgb(255, 0, 0);
+    }
+   #Aadi   {
+    background-color: rgb(255, 225, 0);
+   font-family : serif;
+       
+   }
+   
+    a  {
+        font-family:sans-serif;
+    } 
+ #sharpness  {
+     background-color : rgb(0, 255, 204);
+     border: 10px double  indigo;
+    background-image: linear-gradient(purple,indigo,blue,lightgreen,yellow,orange,red);
+     }
+   
+   #my-first-button   {
+       color: cyan;
+   background-color: rgb(38, 255, 5);
+       border-radius: 6px;
+  border: 2px ridge blue;
+   transition-duration: 0.4s;
+   }
+   
+   #my-first-buttons   {
+      color :rgb(38, 255, 5); 
+      background-color:cyan ;
+   border-radius: 6px;
+   border: 2px ridge blue;
+     transition-duration: 0.4s;  
+   }
+   
+        .beard {
+                background: blue;
+            width: 153px;
+            height: 20px;
+                position:transparent;
+            border-radius: -203px;
+                text-align:center;
+          }
+   
+       #face  {
+           width :80px;
+        margin:10px;
+        border:20px ridge orange;
+         padding:25px;
+        background-image: linear-gradient(blue, cyan);   
+       }
+   
+       #version {
+           text-align:right;
+           font-size:20%;
+           text-decoration: underline rgb(138, 242, 126);
+       
+       }
+       
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ 
+     
+button:hover {
+  padding-right: 25px;
+}
+
+button:hover {
+  opacity: 9;
+  right: 5;
+}
+
+ #qna {
+background-image: radial-gradient(circle,white, lightblue, blue);
+border: 2px ridge orange;
+   }
+
+.navbar  {
+    background-color:rgb(140, 180, 250);
+    border-radius:8px;
+}
+
+.navbar li{
+    float: left;
+    list-style:none;
+    background-color:rgb(133, 176, 255);
+    margin:3px;
+     padding:14px 0px;
+     border-radius:4px;
+}
+
+.navbar li a{
+   
+}
+.navbar ul{
+    overflow:auto;
+}
+
+
+ .msp{
+     font-family: fantasy;
+ }
+ .msp:hover{
+     color: rgb(59, 59, 59);
+     border: 3px lightblue;
+     padding:5px;
+     margin:11px;
+ }
+ </style>
+        
+
+    </head>
+    <body>
+         <span class="msp">AadiWeb</span>
+        
+        <h1>TRAVEL WEBSITE</h1>
+     <header>   
+             <nav class="navbar">   
+<ul>
+    <li><a href="#abc">GOA</a></li>
+    <li><a href="#AAA">ANDAMAN AND  NICOBAR</a></li>
+    <li><a href="#BBB">GLOSSARY</a></li>
+    <li><a href="#ARB">ANIMATIONS</a></li>
+</ul>
+        </nav>
+        </header>
+        
+        
+        <div id="4400">
+        <H3 id="wel">WELCOME TO OUR TRAVEL WEBSITE IN THIS WEBSITE WE WILL DO A LOT OF FUN SO WEAR YOUR SEAT BELT BECAUSE WE ARE GOING VERY FAST OUR NEXT STOP WHICH IS GOA . </H3>
+    
+    </div>
+     <h2 id="abc">1.GOA</h2>
+      
+      <h4 id="woody"> GOA IS A SOUTHWEST STATE IN<STRONG><EM> INDIA</EM> </STRONG>AND IS MUCH POPULAR FOR ITS WORLD FAMOUS BEACHES I SUGGEST YOU TO VISIT GOA IN THE MONTH OF<STRONG> FEBRUARY AND MARCH</STRONG> SO THAT THERE IS NEITER SO MUCH COLD NOR MUCH OF HEAT . I HAD VISITED GOA IN <EM>2019 </EM>THRE ARE VERY BEAUTIFUL BEACHES THERE . THERE ARE MANY HOTELS IN WHICH YOU CAN LIFE SOME HOTELS ARE <STRONG>LONGHINOS, HARDROCK HOTEL , KARMA ROYALE PALMS POLELEM BEAH RESORT ETC </STRONG>
+IT IS A VERY GOOD PLACE TO VISIT IN AND SO NEXT TIME YOU ARE THINKING TO VISIT A PLACE  DONT FORGET TO ADD GOA IN YOUR IN LIST. </h4>      
+   
+  <div id="sharpness"><p id="woody-2">SOME IMAGES OF GOA</p>
+  
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Goa_beautiful_beach.JPG/420px-Goa_beautiful_beach.JPG">
+   
+   
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Goan_Backwaters.jpeg/405px-Goan_Backwaters.jpeg">
+   
+  <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/India_Landscape.jpg/330px-India_Landscape.jpg">
+  
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/GOA_-_panoramio_%2811%29.jpg/405px-GOA_-_panoramio_%2811%29.jpg">
+   
+   </div>
+   <H3 id="buzz">OUR NEXT STOP IS ANDAMAN AND NICOBAR ISLANDS</H3>
+   
+   <h2 id="AAA">ANDAMAN AND NICOBAR ISLANDS</h2>
+   
+   <H4 id="buzz-lightyear"><EM>ANDAMAN AND NICOBAR ISLANDS </EM>IS A GROUP OF ISLANDS . IT IS A BEAUTIFUL PLACE IN INDIAN OCEAN. IT IS A PART OF INDIA OR WE CAN SAY IT COMES IN <EM>INDIA</EM>.THE CAPITAL CITY OF ANDAMAN AND NICOBAR ISLANDS IS <EM>PORT BLAIR.</EM>TOURISM IS INCREASING IN ANDAMAN AND NICOBAR ISLAND DUE OF POPULARITY OF<EM>BEACHES AND ADVENTURE SPORTS</EM> . POPULAR PLACES IN PORT BLAIR ARE CULLULAR JAIL , MAHATMA GANDHI MARINE MEUSEUM , ANDAMAN SPORTS COMPLEX , MINI ZOO ETC .</H4>
+   
+   <div id="sharpness">
+   <H5 id="sai-is-bad-boy">SOME IMAGES OF ANDAMAN AND NICOBAR ISLANDS</H5>
+   
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Barren_island.jpg/375px-Barren_island.jpg">
+   
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Beautiful_sea_shore_at_Andaman_and_Nicobar_Islands.jpg/330px-Beautiful_sea_shore_at_Andaman_and_Nicobar_Islands.jpg">
+   
+   
+   <img class="i2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/CellularJail_Wings.JPG/330px-CellularJail_Wings.JPG">
+   
+  <p id="BBB">There many places where you can visit and enjoy some of them   are </p>
+  
+  </div>
+  
+  <ul>
+      <li id="lists">AHEMDABAD
+      <li id="lists">DEHLI 
+      <li id="lists">LUCKNOW
+      <LI id="lists">CHENNAI
+      <LI id="lists">JAIPUR
+  </ul>
+ <H5 id="abcd">SOME PLACES TO VISIT IN THESE CITIES ARE </H5>
+ <H3 id="ad">AHEMDABAD</H3>
+ <ol>
+    <li id="lists-2">SABARMATI ASHRAM
+    <li id="lists-2">SWAMINARAYAN TEMPLE
+    <li id="lists-2">KANKARIA LAKE
+    <li id="lists-2">BHADRA FORT
+    <li id="lists-2">VAISHNO DEVI TEMPLE
+    <li id="lists-2">KAMLA NEHRU ZOO
+    <li id="lists-2">GUJRAT SCIENCE CITY
+    <li id="lists-2">SPLASH THE FUN
+ </ol>
+  
+  <h3 id="ad">DEHLI</h3>
+  
+   <ol>
+    <li id="Aadi">QUTUB MINAR
+    <li  id="Aadi">INDIA GATE
+    <li id="Aadi">RED FORT
+    <li id="Aadi">LOTUS TEMPLE
+    <li id="Aadi">RAJ GHAT
+    <li id="Aadi">NEHRU PARK
+</ol>
+      <H4> <A href="https://en.wikipedia.org/wiki/Goa">CLICK HERE TO SEE MORE ABOUT GOA FROM  WIKIPEDIA</A></H4>
+       
+   <H4><A href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">TO SEE MORE ABOUT ANDAMAN AND NICOBAR ISLANDS CLICK HERE</A></H4>
+    
+    <H4><A href="https://en.wikipedia.org/wiki/Travel">CLICK HERE TO SEE MORE ABOUT TRAVELLING</A></H4>
+    
+      <div id="qna">
+  <label>Which one of the following is situated i the indian ocean of the following is situated in the Indian Ocean
+        <select id="lang">
+            <option value="en">Goa</option>
+            <option value="es">Andaman and Nicobar</option>
+            <option value="plt">Delhi</option>
+            <option value="plt">Ahemdabad</option>
+        </select>
+        </label>
+  <br>
+   <label>Andaman and Nicobar is a/an ?
+        <select id="lang">
+            <option value="en">country</option>
+            <option value="es">state</option>
+            <option value="plt">Capital of India</option>
+            <option value="plt">island</option>
+        </select>
+        </label>
+      <br>
+       <label>Which city of southwest India is known worldwide for its clean beaches?
+        <input id="name" type="text">
+        </label>
+      <br>
+       <label>Name 3 cities where you can go and enjoy
+        <input id="name" type="text">
+        </label>
+  <br>
+       <label>What is this webpage all about 
+        <input id="name" type="text">
+        </label>
+  </div>
+    
+      <h5 id="ARB">Move your mouse over the winston's face and see what he wants to say........</h5>
+   
+   <img id="face" src="https://www.kasandbox.org/programming-images/creatures/Winston.png">
+    
+     <button id="my-first-button">click me! I am a button!</button>  
+ 
+     <button id="my-first-buttons">click me! I am a button too but first check the first button </button>   
+    
+    <div id="message"> </div>  
+    <div class="beard">Travelllllll</div>
+  <h6 id="version">VERSION - 2.11.4</h6>
+
+ <canvas id="canvas" width="264" height="251"
+style="background-color:#333">
+</canvas>
+  
+   <script>
+       var face = document.getElementById("face");
+       
+       var clickerButton = document.getElementById("my-first-button");
+   var onButtonClick = function() {
+        clickerButton.textContent = "Thanks for visiting my webpage.........Stay tuned :) Because I will be soon back with some interesting webpages till than just be positive . -your pal the mechanic.#positivity";
+    };
+    clickerButton.addEventListener("click", onButtonClick);
+   
+       var clickerButton = document.getElementById("my-first-buttons");
+   var onButtonClick = function() {
+        clickerButton.textContent = "Hello i am Aaditya Barai you can check my dashboard on https://www.khanacademy.org/profile/Aadiper/ and onece again thanks for visiting. ";
+    };
+    clickerButton.addEventListener("click", onButtonClick);
+    
+    
+  var onMouseMove = function() {
+        document.getElementById("message").textContent += "Travel ";  
+    };
+     face.addEventListener("mousemove", onMouseMove);
+      
+      /*for clock*/
+      
+  var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fillStyle = 'white';
+  ctx.fill();
+  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+  grad.addColorStop(0, '#333');
+  grad.addColorStop(0.5, 'white');
+  grad.addColorStop(1, '#333');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = '#333';
+  ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius*0.15 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.85);
+    ctx.rotate(-ang);
+  }
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour=hour%12;
+    hour=(hour*Math.PI/6)+
+    (minute*Math.PI/(6*60))+
+    (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second=(second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+      
+     
+            var fonts = ["Orbitron","Dosis","Candal","Sigmar One","Bangers","Luckiest Guy","Marck Script","Audiowide","Just Another Hand","Bubblegum Sans","Julius Sans One","Cherry Cream Soda","Michroma","Walter Turncoat","Aldrich","Aclonica","Fredericka The Great","Black Ops One","Ceviche One","Frijole","Freckle Face","Unica One","Knewave","Caeser Dressing","Graduate","Megrim","Slackey","IM Fell English","Finger Paint","Iceland","Carter One","Just Me Again Down Here","Lemon","Lily Script One","Crushed","Indie Flower", "Lobster", "Kiushan Script", "Mrs Sheppards", "Source Sans Pro", "Righteous", "Monospace","Fantasy", "Arial","Segoe UI Light", "Chiller", "Papyrus", "Chalkboard", "Maven Pro", "Quicksand", "Amatic SC", "Electrolize","Cursive", "Antic Slab", "Cabin Sketch", "Quantico", "Iceland", "Exo 2", "Bubbler One", "Nova Cut", "Comfortaa", "Play", "MV Boil", "Open Sans", "Titillium Web", "Play:400,700", "Nova Mono", "Passion One", "Seaweed Script", "Grand Hotel","Creepster","Griffy","Rye","Sunshiney","Atomic Age","Montserrat Subrayada","Ranchers","New Rocker","Akronim","Geostar Fill","Faster One","Eater","Underdog","Arbutus","Stalinist One","Hanalei","Flavors","Fruktur","Ravi Prakash", "Nosifer", "Alegreya Sans SC", "Josefin Sans", "Cherry Swash"];
+            var fontEl = document.getElementById("fonts"); fonts.sort();
+            for(var i = 0;i < fonts.length;i += 1){
+                var newFont = document.createElement("p");
+                newFont.style.fontFamily = fonts[i];
+                newFont.textContent = fonts[i];
+                fontEl.appendChild(newFont);
+            }
+         
+      
+      
+   </script>
+        
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/300px-Rotating_earth_%28large%29.gif"id = "earth-gif">
+   </body>
+</html>
